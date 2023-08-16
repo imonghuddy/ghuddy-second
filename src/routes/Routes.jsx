@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
-import App from "../App";
+
 import Categories from "../components/categories/Categories";
+import App from "../App";
 
 
 
