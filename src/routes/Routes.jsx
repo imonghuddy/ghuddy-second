@@ -1,7 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
 
-import Categories from "../components/categories/Categories";
 import App from "../App";
+import Header from "../components/header/Header";
+import Navbar from "../components/Navbar/Navbar";
 
 
 
@@ -12,8 +13,9 @@ export const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Categories></Categories>
+        element: <Navbar></Navbar>,
       },
+      
     ],
   },
 ]);
